@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+
+.title{
+  padding: 2rem 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 1rem 0;
+  color: white;
+}
+
+h2:hover{
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  color: green;
+}
+
+.item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+  padding-bottom: 6rem;
+}
+
+.item-container{
+  overflow: hidden;
+}
+
+.item-con{
+  width: 100%;
+  padding: 6px;
+  background-color: black;
+  /* border-radius: 10px; */
+}
+
+.item-container > img{
+  width: 100%;
+  transition: all .2s ease-in-out;
+}
+
+.item-container > img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.buttons{
+  margin: 3rem auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.btn{
+  border: 1px solid #4CAF50;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 50px;
+  margin-left: 90px;
+  box-shadow: 0 5px 10px rgba(0,250,0, 0.4);
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: green;
+  box-shadow: 0 10px 10px rgba(0, 7, 0, 0.4);
+  transition: .1s;
+}
+
+
+@media screen and (min-width:664px) {
+  .background{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cards{
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+

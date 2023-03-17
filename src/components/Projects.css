@@ -1,0 +1,80 @@
+.projo{
+    background-color: black;
+    width: 100%;
+    height:auto;
+}
+
+.navbar{
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.alemba{
+    color: green;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+}
+
+.info2{
+    color: white;
+}
+
+.info2 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4CAF50;
+}
+
+.info2 p{
+    text-align: center;
+    font-size: 18px;
+}
+.toggle{
+    text-align: center;
+}
+
+.toggle button{
+    margin: 40px;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 50px;
+    margin-left: 90px;
+    box-shadow: 0 10px 10px rgba(0,250,0, 0.4);
+    background: transparent;
+    cursor: pointer;
+}
+
+.toggle button:hover{
+    background-color: green;
+    box-shadow: 0 10px 10px rgba(0, 7, 0, 0.4);
+    transition: .1s;
+}
+
+.socials .icons{
+    font-size: 30px;
+    color: green;
+    margin-left: 80px;
+}
+
+.socials .icons:hover{
+    color:white;
+    transition: .1s;
+    transform: scale(1.1);
+}
+
+.content-1{
+    text-align: center;
+}
+
+.content-1 > .cards{
+    display: inline-block;
+}
+
+
+
+
